@@ -1,0 +1,111 @@
+#navbar-main {
+  height: 5rem;
+  background-color: #292c74;
+}
+
+.nav-search-bar {
+  display: flex;
+  margin-top: 15px;
+}
+
+.logo-img {
+  height: 5rem;
+  padding: 10px;
+}
+
+
+.search-input {
+  height: 3rem;
+  width: 22rem;
+  padding: 20px;
+  color: #f2f2f2;
+  background-color: #a8a8a8;
+  border: none;
+  border-radius: 40px 0 0 40px;
+  font-size: 90%;
+}
+
+.search-text-content {
+  color: #f2f2f2;
+  font-size: 150%;
+  font-weight: 700;
+}
+
+.search-button {
+  height: 3rem;
+  width: 3.5rem;
+  background-color: #050505;
+  border: none;
+  border-radius: 0 40px 40px 0;
+}
+
+#search-icon:hover {
+  cursor: pointer;
+}
+
+#search-icon:active {
+  background-color: rgba(5, 5, 5, 0.7);
+}
+
+.cart {
+  height: 100%;
+}
+
+.cart-icon {
+  display: flex;
+}
+
+.cart-icon-font {
+  font-size: 300%;
+  margin-top: 19px;
+}
+
+.cart-font {
+  color: #f2f2f2;
+  margin-bottom: 0px;
+}
+
+.login-section {
+  text-align: center;
+}
+
+.icon-text p {
+  margin-top: 50px;
+  font-weight: 700;
+}
+
+.icon-text-underline {
+  width: 10px;
+  height: 2px;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+}
+
+.icon {
+  height: 5rem;
+  width: 5rem;
+  margin-top: 7.2px;
+}
+
+.login-section {
+  margin: auto 0;
+}
+
+.login-section a {
+  text-decoration: none;
+}
+
+.login-text {
+  margin-bottom: 0px;
+  font-weight: 400;
+  font-size: 80%;
+  color: #f2f2f2;
+}
+
+.login-underline {
+  width: 5rem;
+  height: 2px;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  margin-top: 2px;
+}

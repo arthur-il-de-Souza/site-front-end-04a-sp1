@@ -1,0 +1,33 @@
+#top {
+  height: 25px;
+  background-color: aquamarine;
+}
+
+.top-center {
+  display: flex;
+}
+
+.top-content {
+  width: 50vw;
+  font: 14px;
+}
+
+.top-left {
+  float: right;
+}
+
+.top-right {
+  float: left;
+}
+
+.top-text {
+  margin: 0;
+}
+
+.top-left {
+  margin-right: var(--top-text-margin);
+}
+
+.top-right {
+  margin-left: var(--top-text-margin);
+}

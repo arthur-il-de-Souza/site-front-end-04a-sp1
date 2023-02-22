@@ -1,0 +1,10 @@
+#bot-footer {
+  height: 2rem;
+  background-color: var(--top-bot-color);
+}
+
+.bot-footer-center .span-1{
+  margin-top: 3px;
+  float: right;
+  color: var(--text-general-color);
+}

@@ -2,6 +2,22 @@
 
 :root {
   --top-text-margin: 50px;
+    /* Paddings, margins, spaces, times */
+  --global-width: 90vw;
+  --global-max-width: 1120px;
+  --transition-time-general: 0.2s;
+  /* colors */
+  --top-bot-color: #111336;
+  --text-general-color: #f2f2f2; 
+  --text-emphasis: #a7a7a7;
+  --text-main-black: #050505;
+  --main-color: #292c74;
+  --sec-color: #797cbe;
+  /* fonts */
+  --font-title: "Anton", sans-serif;
+  --font-main: "Inter", sans-serif;
+  --font-content: "Roboto", sans-serif;
+  --font-espceial: "Share Tech", sans-serif;
 }
 
 body {

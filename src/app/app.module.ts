@@ -7,6 +7,8 @@ import { TopComponent } from './views/top/top.component';
 import { CarouselComponent } from './views/carousel/carousel.component';
 import { NavComponent } from './views/nav/nav.component';
 import { NavBotComponent } from './views/nav-bot/nav-bot.component';
+import { FooterBotComponent } from './views/footer-bot/footer-bot.component';
+import { FooterComponent } from './views/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { NavBotComponent } from './views/nav-bot/nav-bot.component';
     CarouselComponent,
     NavComponent,
     NavBotComponent,
+    FooterBotComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

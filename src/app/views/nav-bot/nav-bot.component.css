@@ -22,3 +22,17 @@
   color: #797cbe;
 }
 
+@media (max-width: 1000px) {
+  #nav-bot{
+    font-size: 70%;
+  }
+
+  .fa-list-ul {
+    font-size: 90%;
+  }
+
+  span {
+    font-size: 0;
+  }
+}
+

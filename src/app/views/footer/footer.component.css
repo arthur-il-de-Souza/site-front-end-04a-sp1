@@ -170,3 +170,118 @@
   text-decoration: underline;
   text-align: center;
 }
+
+@media (max-width: 1024px) {
+  /* footer start */
+
+  .footer-center {
+    width: 90vw;
+  }
+
+  .fo-title {
+    font-size: 100%;
+  }
+
+  .text-content-font {
+    font-size: 90%;
+  }
+
+  .contact {
+    height: 2rem;
+  }
+
+  .contact-bar01 {
+    border-width: 1px 0 1px 1px;
+    width: 160px;
+  }
+
+  .contact-bar02 {
+    border-width: 1px 1px 1px 0;
+    width: 35px;
+  }
+
+  .contact-icon {
+    margin-left: 6px;
+    margin-top: 3px;
+    font-size: 140%;
+  }
+
+  .local p {
+    font-size: 80%;
+  }
+  /* footer end */
+}
+
+@media (max-width: 870px) {
+  /* footer start */
+
+  .footer-center {
+    width: 90vw;
+  }
+
+  .fo-title {
+    height: 2.8rem;
+    font-size: 80%;
+    letter-spacing: 1.5px;
+    line-height: 1rem;
+  }
+
+  .text-content-font {
+    font-size: 0%;
+  }
+
+  .contact {
+    margin-bottom: 20px;
+  }
+
+  .contact-bar01 {
+    border-width: 0;
+    width: 0px;
+  }
+
+  .contact-bar02 {
+    margin: 0 auto;
+    border-width: 1px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+  }
+
+  .contact-number-icon {
+    background-color: #4fa792;
+  }
+
+  .contact-insta-icon {
+    background-color: #b4507d;
+  }
+
+  .contact-face-icon {
+    background-color: #6d7297;
+  }
+
+  .contact-mail-icon {
+    background-color: #948f84;
+  }
+
+  .contact-icon {
+    margin-left: 9px;
+    margin-top: 8px;
+    font-size: 140%;
+  }
+
+  .fa-whatsapp {
+    margin-left: 10px;
+  }
+
+  .fa-instagram {
+    margin-left: 10px;
+    margin-top: 9px;
+  }
+
+  .local p {
+    letter-spacing: 0.1px;
+    line-height: 0.9rem;
+    font-size: 75%;
+  }
+  /* footer end */
+}

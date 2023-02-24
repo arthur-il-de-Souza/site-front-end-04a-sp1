@@ -1,6 +1,6 @@
 #navbar-main {
   height: 5rem;
-  background-color: #292c74;
+  background-color: var(--main-color);
 }
 
 .navbar-center {
@@ -23,15 +23,15 @@
   height: 3rem;
   width: 22rem;
   padding: 20px;
-  color: #f2f2f2;
-  background-color: #a8a8a8;
+  background-color: var(--text-general-color);
   border: none;
   border-radius: 40px 0 0 40px;
+  font-family: var(--font-main);
   font-size: 90%;
 }
 
 .search-text-content {
-  color: #f2f2f2;
+  color: var(--text-general-color);
   font-size: 150%;
   font-weight: 700;
 }
@@ -39,7 +39,7 @@
 .search-button {
   height: 3rem;
   width: 3.5rem;
-  background-color: #050505;
+  background-color: var(--text-main-black);
   border: none;
   border-radius: 0 40px 40px 0;
 }
@@ -66,7 +66,7 @@
 }
 
 .cart-font {
-  color: #f2f2f2;
+  color: var(--text-general-color);
   margin-bottom: 0px;
 }
 
@@ -82,7 +82,7 @@
 .icon-text-underline {
   width: 10px;
   height: 2px;
-  background-color: #f2f2f2;
+  background-color: var(--text-general-color);
   margin: 0 auto;
 }
 
@@ -98,19 +98,20 @@
 
 .login-section a {
   text-decoration: none;
+  font-family: var(--font-main);
 }
 
 .login-text {
   margin-bottom: 0px;
   font-weight: 400;
   font-size: 80%;
-  color: #f2f2f2;
+  color: var(--text-general-color);
 }
 
 .login-underline {
   width: 5rem;
   height: 2px;
-  background-color: #f2f2f2;
+  background-color: var(--text-general-color);
   margin: 0 auto;
   margin-top: 2px;
 }

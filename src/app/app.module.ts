@@ -10,6 +10,8 @@ import { NavBotComponent } from './views/nav-bot/nav-bot.component';
 import { FooterBotComponent } from './views/footer-bot/footer-bot.component';
 import { FooterComponent } from './views/footer/footer.component';
 import { MainCardsComponent } from './views/main-cards/main-cards.component';
+import { HomeComponent } from './views/home/home.component';
+import { HomeBannerComponent } from './views/home-banner/home-banner.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { MainCardsComponent } from './views/main-cards/main-cards.component';
     FooterBotComponent,
     FooterComponent,
     MainCardsComponent,
+    HomeComponent,
+    HomeBannerComponent,
   ],
   imports: [
     BrowserModule,

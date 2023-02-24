@@ -9,6 +9,7 @@ import { NavComponent } from './views/nav/nav.component';
 import { NavBotComponent } from './views/nav-bot/nav-bot.component';
 import { FooterBotComponent } from './views/footer-bot/footer-bot.component';
 import { FooterComponent } from './views/footer/footer.component';
+import { MainCardsComponent } from './views/main-cards/main-cards.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { FooterComponent } from './views/footer/footer.component';
     NavBotComponent,
     FooterBotComponent,
     FooterComponent,
+    MainCardsComponent,
   ],
   imports: [
     BrowserModule,

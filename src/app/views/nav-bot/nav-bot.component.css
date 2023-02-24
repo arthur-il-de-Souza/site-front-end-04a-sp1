@@ -14,12 +14,13 @@
 
 .nav-link {
   transition: 0.25s;
-  color: #f2f2f2;
+  color: var(--text-general-color);
+  font-family: var(--font-main);
 }
 
 .nav-link:hover {
-  background-color: #f2f2f2;
-  color: #797cbe;
+  background-color: var(--text-general-color);
+  color: var(--sec-color);
 }
 
 @media (max-width: 1000px) {

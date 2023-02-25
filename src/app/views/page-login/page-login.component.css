@@ -1,0 +1,32 @@
+#login {
+  /* height: 20rem; */
+  /* background: red; */
+  margin-bottom: 10rem;
+}
+
+.container-login {
+  width: 100%;
+  max-width: 450px;
+  padding: 10px;
+  background: rgba(121, 124, 190, 0.9);
+  border-radius: 10px;
+  box-shadow: rgba(41, 44, 190, 0.4) 0px 5px, rgba(41, 44, 190, 0.3) 0px 10px,
+    rgba(41, 44, 190, 0.2) 0px 15px, rgba(41, 44, 190, 0.1) 0px 20px,
+    rgba(41, 44, 190, 0.05) 0px 25px;
+}
+
+.login-button {
+  background-color: #292c74;
+}
+
+.login-title-font {
+  color: rgba(30, 33, 102, 0.9);
+  font-weight: 700;
+  font-family: var(--font-title);
+  letter-spacing: 2px;
+}
+
+.login-content-font {
+  color: var(--text-general-color);
+  font-family: var(--font-content);
+}
